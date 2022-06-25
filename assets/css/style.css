@@ -132,6 +132,6 @@ nav .active {
     text-align-last: justify;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid rgba(0, 183, 255, 0.4);
     font-size: 13px;
 }
