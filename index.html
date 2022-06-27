@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicenter</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/menu.js"></script>
+    <!--<script type="text/javascript">
+        window.onload = function () {
+        document.querySelector(".menu_mobile").addEventListener("click", function() {
+        if (document.querySelector(".menu nav ul").style.display == 'flex') {
+            document.querySelector(".menu nav ul").style.display = 'none';
+        } else {
+                document.querySelector(".menu nav ul").style.display = 'flex'
+            }
+    })
+}
+    </script>-->
 </head>
 <body>
     <header>
@@ -15,13 +27,20 @@
             </div>
             <div class="menu">
                 <nav>
-                    <a href="index.html" class="active">Home</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="pages.html">Pages</a>
-                    <a href="departments.html">Departments</a>
-                    <a href="#">Timetable</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Contact</a>
+                    <div class="menu_mobile">
+                        <div class="mmLine"></div>
+                        <div class="mmLine"></div>
+                        <div class="mmLine"></div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="pages.html">Pages</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="#">Timetable</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
